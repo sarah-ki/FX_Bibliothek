@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.web.*?>
+
+<VBox alignment="center" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="sample.WikibookController">
+
+    <MenuBar>
+     <menus>
+       <Menu mnemonicParsing="false" text="?">
+         <items>
+           <MenuItem mnemonicParsing="false" text="Ueber dieses Programm" onAction="#menuAction"/>
+         </items>
+       </Menu>
+     </menus>
+   </MenuBar>
+  
+    <TextField fx:id="textField" onAction="#tfSearchTerm" onKeyTyped="#enableActions" />
+    <Button fx:id="seachButton" onAction="#btnSearch" text="Suchen" />
+    <Button fx:id="hinzufuegenButton" onAction="#btnAdd" text="Hinzufuegen" />
+    <Button fx:id="sortierenButton" onAction="#btnSort" text="Sortieren" />
+    <Button fx:id="loeschenButton" onAction="#btnDelete" text="Loeschen" />
+    <Button fx:id="speichernButton" onAction="#btnSave" text="Speichern" />
+    <Button fx:id="ladenButton" onAction="#btnLoad" text="Laden" />
+    <WebView fx:id="webView" />
+    <ListView fx:id="synonymeListe" onMouseClicked="#SynonymSelection" />
+    <Button fx:id="synonymeSuchenButton" onAction="#btnSucheSynonyme" text="Suche Synonyme" />
+    <Button fx:id="zurueckButton" disable="true" onAction="#btnBack" text="Zurueck" />
+    <Button fx:id="vorwaertsButton" disable="true" onAction="#btnForward" text="Vorwaerts" />
+    <ComboBox fx:id="comboBoxBegriffe" onAction="#comboBoxAction" />
+
+    <ListView fx:id="titelListe" />
+    <Label fx:id="label_bearbeiter" text="Bearbeiter: " />
+    <Label fx:id="label_aenderung" text="Aenderung: " />
+</VBox>
