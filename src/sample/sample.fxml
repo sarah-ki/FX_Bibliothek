@@ -4,33 +4,74 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.web.*?>
 
-<VBox alignment="center" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="sample.WikibookController">
+<?import javafx.geometry.Insets?>
+<VBox xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="sample.WikibookController" fx:id="vboxContainer" >
 
-    <MenuBar>
-     <menus>
-       <Menu mnemonicParsing="false" text="?">
-         <items>
-           <MenuItem mnemonicParsing="false" text="Ueber dieses Programm" onAction="#menuAction"/>
-         </items>
-       </Menu>
-     </menus>
-   </MenuBar>
-  
-    <TextField fx:id="textField" onAction="#tfSearchTerm" onKeyTyped="#enableActions" />
-    <Button fx:id="seachButton" onAction="#btnSearch" text="Suchen" />
-    <Button fx:id="hinzufuegenButton" onAction="#btnAdd" text="Hinzufuegen" />
-    <Button fx:id="sortierenButton" onAction="#btnSort" text="Sortieren" />
-    <Button fx:id="loeschenButton" onAction="#btnDelete" text="Loeschen" />
-    <Button fx:id="speichernButton" onAction="#btnSave" text="Speichern" />
-    <Button fx:id="ladenButton" onAction="#btnLoad" text="Laden" />
-    <WebView fx:id="webView" />
-    <ListView fx:id="synonymeListe" onMouseClicked="#SynonymSelection" />
-    <Button fx:id="synonymeSuchenButton" onAction="#btnSucheSynonyme" text="Suche Synonyme" />
-    <Button fx:id="zurueckButton" disable="true" onAction="#btnBack" text="Zurueck" />
-    <Button fx:id="vorwaertsButton" disable="true" onAction="#btnForward" text="Vorwaerts" />
-    <ComboBox fx:id="comboBoxBegriffe" onAction="#comboBoxAction" />
+        <GridPane alignment="center" hgap="10" vgap="10" >
+            <columnConstraints>
+                <ColumnConstraints hgrow="ALWAYS"/>
+            </columnConstraints>
+            <rowConstraints>
 
-    <ListView fx:id="titelListe" />
-    <Label fx:id="label_bearbeiter" text="Bearbeiter: " />
-    <Label fx:id="label_aenderung" text="Aenderung: " />
+            </rowConstraints>
+            <MenuBar GridPane.columnIndex="0" GridPane.rowIndex="0"
+                     GridPane.columnSpan="8">
+                <menus>
+                    <Menu text="?">
+                        <items>
+                            <MenuItem onAction="#menuAction" text="Ueber dieses Programm"/>
+                        </items>
+                    </Menu>
+                </menus>
+            </MenuBar>
+
+            <TextField fx:id="textField" onAction="#tfSearchTerm" onKeyTyped="#enableActions" GridPane.columnIndex="0"
+                       GridPane.rowIndex="1" />
+            <Button fx:id="seachButton" onAction="#btnSearch" text="Suchen" GridPane.columnIndex="0"
+                    GridPane.rowIndex="2"/>
+
+            <Button fx:id="hinzufuegenButton" onAction="#btnAdd" text="Hinzufuegen" GridPane.columnIndex="3"
+                    GridPane.rowIndex="1"/>
+            <Button fx:id="sortierenButton" onAction="#btnSort" text="Sortieren" GridPane.columnIndex="4"
+                    GridPane.rowIndex="1"/>
+            <Button fx:id="loeschenButton" disable="true" onAction="#btnDelete" text="Loeschen" GridPane.columnIndex="5"
+                    GridPane.rowIndex="1"/>
+            <Button fx:id="speichernButton" onAction="#btnSave" text="Speichern" GridPane.columnIndex="6"
+                    GridPane.rowIndex="1"/>
+            <Button fx:id="ladenButton" onAction="#btnLoad" text="Laden" GridPane.columnIndex="6"
+                    GridPane.rowIndex="2"/>
+            <Button fx:id="zurueckButton" disable="true" onAction="#btnBack" text="Zurueck" GridPane.columnIndex="7"
+                    GridPane.rowIndex="1"/>
+            <Button fx:id="vorwaertsButton" disable="true" onAction="#btnForward" text="Vorwaerts"
+                    GridPane.columnIndex="7" GridPane.rowIndex="3"/>
+            <ComboBox fx:id="comboBoxBegriffe" onAction="#comboBoxAction" GridPane.columnIndex="7"
+                      GridPane.rowIndex="2"/>
+        </GridPane>
+
+
+
+      <SplitPane>
+
+          <VBox>
+            <WebView fx:id="webView" prefHeight="2000"/>
+            <Label fx:id="label_bearbeiter" text="Bearbeiter: n.B. "/>
+            <Separator orientation="HORIZONTAL"/>
+            <Label fx:id="label_aenderung" text="Aenderung: n.B. "/>
+
+</VBox>
+
+          <VBox>
+            <Label text="Synonyme: "/>
+            <ListView fx:id="synonymeListe" onMouseClicked="#SynonymSelection" prefHeight="2000"/>
+            <Button fx:id="synonymeSuchenButton" onAction="#btnSucheSynonyme" text="Suche Synonyme"/>
+
+          </VBox>
+          <VBox>
+            <Label text="Medien: "/>
+
+            <ListView fx:id="titelListe" prefHeight="2000"/>
+          </VBox>
+      </SplitPane>
+
 </VBox>

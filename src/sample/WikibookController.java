@@ -2,6 +2,7 @@ package sample;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
@@ -27,7 +28,7 @@ import static javax.xml.XMLConstants.FEATURE_SECURE_PROCESSING;
 
 public class WikibookController {
 
-
+//<AnchorPane prefHeight="200.0" prefWidth="200.0" />
     public TextField textField;
     public Button seachButton;
     public static String suchbegriff;
@@ -40,6 +41,11 @@ public class WikibookController {
     public Button loeschenButton;
     public Button speichernButton;
     public Button ladenButton;
+
+    public ListView getSynonymeListe() {
+        return synonymeListe;
+    }
+
     public ListView synonymeListe;
     public Button synonymeSuchenButton;
     public ListView titelListe;
@@ -49,6 +55,7 @@ public class WikibookController {
     public MenuBar menuBar;
     public MenuButton menuBtn;
     int index = -1;
+    boolean sortierung=false;
     public ArrayList<String> begriffshistorie = new ArrayList<>();
     WebEngine engine;
 
@@ -59,9 +66,6 @@ public class WikibookController {
         return zk;
     }
 
-    public void setZk(Zettelkasten zk) {
-        this.zk = zk;
-    }
 
     Zettelkasten zk;
 
@@ -77,6 +81,7 @@ public class WikibookController {
 
 
     }
+
 
     public void labelBearbeitung() {
         //TODO Aktualisierung nicht Bearbeiter/ Aenderung von args sondern neues Wikibuch bei reload der Seite
@@ -200,6 +205,21 @@ public class WikibookController {
      * @param actionEvent
      */
     public void btnSort(ActionEvent actionEvent) {
+        if(sortierung)
+        {
+           getZk().sort("absteigend");
+            Bibliothek.setZettelkasten(zk);
+            showzk();
+            sortierung=false;
+
+        }else{
+        getZk().sort("aufsteigend");
+            Bibliothek.setZettelkasten(zk);
+            showzk();
+            sortierung=true;
+
+        }
+
 
 
     }
@@ -322,8 +342,7 @@ public class WikibookController {
 
             alert.showAndWait();
             textField.clear();
-            e.printStackTrace();
-            System.out.println("no synonym found");
+            System.err.println("no synonym found");
         }
     }
 
@@ -343,7 +362,7 @@ public class WikibookController {
 
             System.err.println("Kein Synonym gewaehlt!");
         }
-//selectionModel="SINGLE" ??
+
 
     }
 
@@ -395,7 +414,7 @@ public class WikibookController {
         comboBoxBegriffe.setValue(begriff);
         comboBoxBegriffe.getSelectionModel().select(index);
 
-        System.out.println("historie  + lenghst: " + begriff + "  " + begriffshistorie.size());
+       // System.out.println("historie  + lenghst: " + begriff + "  " + begriffshistorie.size());
 
         if(index>0){
             zurueckButton.setDisable(false);}
@@ -431,6 +450,11 @@ public class WikibookController {
                 "redaktionellen Inhalte und ist daher untersagt.\n");
 
         alert.showAndWait();
+    }
+
+    public void traversieren(KeyEvent keyEvent) {
+
+
     }
 }
 

@@ -1,37 +1,246 @@
-<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="de">
-  <siteinfo>
-    <sitename>Wikibooks</sitename>
-    <dbname>dewikibooks</dbname>
-    <base>https://de.wikibooks.org/wiki/Hauptseite</base>
-    <generator>MediaWiki 1.36.0-wmf.27</generator>
-    <case>first-letter</case>
-    <namespaces>
-      <namespace key="-2" case="first-letter">Medium</namespace>
-      <namespace key="-1" case="first-letter">Spezial</namespace>
-      <namespace key="0" case="first-letter" />
-      <namespace key="1" case="first-letter">Diskussion</namespace>
-      <namespace key="2" case="first-letter">Benutzer</namespace>
-      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
-      <namespace key="4" case="first-letter">Wikibooks</namespace>
-      <namespace key="5" case="first-letter">Wikibooks Diskussion</namespace>
-      <namespace key="6" case="first-letter">Datei</namespace>
-      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
-      <namespace key="8" case="first-letter">MediaWiki</namespace>
-      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
-      <namespace key="10" case="first-letter">Vorlage</namespace>
-      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
-      <namespace key="12" case="first-letter">Hilfe</namespace>
-      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
-      <namespace key="14" case="first-letter">Kategorie</namespace>
-      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
-      <namespace key="102" case="first-letter">Regal</namespace>
-      <namespace key="103" case="first-letter">Regal Diskussion</namespace>
-      <namespace key="828" case="first-letter">Modul</namespace>
-      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
-      <namespace key="2300" case="first-letter">Gadget</namespace>
-      <namespace key="2301" case="first-letter">Gadget Diskussion</namespace>
-      <namespace key="2302" case="case-sensitive">Gadget-Definition</namespace>
-      <namespace key="2303" case="case-sensitive">Gadget-Definition Diskussion</namespace>
-    </namespaces>
-  </siteinfo>
-</mediawiki>
+<!DOCTYPE html>
+<html class="client-nojs" lang="de" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Seiten exportieren – Wikibooks, Sammlung freier Lehr-, Sach- und Fachbücher</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!0,"wgSeparatorTransformTable":[",\t.",".\t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"],"wgRequestId":"YAtQIwpAICkAAKTRH4cAAADM","wgCSPNonce":!1,"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"Export","wgNamespaceNumber":-1,"wgPageName":"Spezial:Exportieren/","wgTitle":"Exportieren/","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":!1,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"de","wgPageContentModel":"wikitext","wgRelevantPageName":"Spezial:Exportieren/","wgRelevantArticleId":0,"wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wgVisualEditor":{"pageLanguageCode":"de",
+"pageLanguageDir":"ltr","pageVariantFallbacks":"de"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!1},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"Deutsch","wgNoticeProject":"wikibooks","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"wgULSPosition":"interlanguage"};RLSTATE={"ext.gadget.serlo-design":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","mediawiki.htmlform.ooui.styles":"ready","mediawiki.htmlform.styles":"ready","mediawiki.helplink":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=[
+"mediawiki.htmlform","mediawiki.htmlform.ooui","site","mediawiki.page.ready","skins.vector.legacy.js","ext.gadget.addStatisticsLink","ext.gadget.addMediawiki2LatexLink","ext.gadget.CollapseElements","ext.gadget.mfnf-linter","ext.gadget.serlo-general","ext.centralauth.centralautologin","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.centralNotice.geoIP"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});mw.user.options.set({"variant":"de"});
+});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=de&amp;modules=ext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.helplink%7Cmediawiki.htmlform.ooui.styles%7Cmediawiki.htmlform.styles%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.styles.legacy&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?lang=de&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=de&amp;modules=ext.gadget.serlo-design&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/w/load.php?lang=de&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.36.0-wmf.27"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="robots" content="noindex,nofollow"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//de.m.wikibooks.org/wiki/Spezial:Exportieren/"/>
+<link rel="shortcut icon" href="/static/favicon/wikibooks.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikibooks (de)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//de.wikibooks.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://de.wikibooks.org/wiki/Spezial:Exportieren/"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr capitalize-all-nouns mw-hide-empty-elt ns--1 ns-special mw-special-Export page-Spezial_Exportieren rootpage-Spezial_Exportieren skin-vector action-view skin-vector-legacy"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div>
+	<div class="mw-indicators mw-body-content">
+	<div id="mw-indicator-mw-helplink" class="mw-indicator"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Export" target="_blank" class="mw-helplink">Hilfe</a></div>
+	</div>
+	<h1 id="firstHeading" class="firstHeading" lang="de">Seiten exportieren</h1>
+	<div id="bodyContent" class="mw-body-content">
+		
+		<div id="contentSub"></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Zur Navigation springen</a>
+		<a class="mw-jump-link" href="#searchInput">Zur Suche springen</a>
+		<div id="mw-content-text"><p>Mit dieser Spezialseite kannst du den Text inklusive der Versionsgeschichte einzelner Seiten in eine XML-Datei exportieren.
+Die Datei kann in ein anderes MediaWiki-Wiki über die <a href="/wiki/Spezial:Importieren" title="Spezial:Importieren">Importfunktion</a> eingespielt werden.
+</p><p>Trage den oder die entsprechenden Seitentitel in das folgende Textfeld ein (pro Zeile jeweils nur eine Seite).
+</p><p>Alternativ ist der Export auch mit der Syntax <a href="/wiki/Spezial:Exportieren/Hauptseite" title="Spezial:Exportieren/Hauptseite">Spezial:Exportieren/Hauptseite</a> möglich, beispielsweise für die <a href="/wiki/Hauptseite" title="Hauptseite">Hauptseite</a>.
+</p><div class='mw-htmlform-ooui-wrapper oo-ui-layout oo-ui-panelLayout'><form action='/wiki/Spezial:Exportieren/' method='post' enctype='application/x-www-form-urlencoded' class='mw-htmlform mw-htmlform-ooui oo-ui-layout oo-ui-formLayout'><div id='ooui-php-6' class='mw-htmlform-field-HTMLTextFieldWithButton  oo-ui-layout oo-ui-labelElement oo-ui-fieldLayout oo-ui-fieldLayout-align-top oo-ui-actionFieldLayout mw-htmlform-hide-if' data-ooui='{"_":"mw.htmlform.ActionFieldLayout","buttonWidget":{"tag":"ooui-php-7"},"fieldWidget":{"tag":"mw-input-catname"},"align":"top","helpInline":true,"$overlay":true,"label":{"html":"Seiten aus folgender Kategorie hinzuf\u00fcgen:"},"hideIf":["===","exportall","1"],"classes":["mw-htmlform-field-HTMLTextFieldWithButton",""]}'><div class='oo-ui-fieldLayout-body'><span class='oo-ui-fieldLayout-header'><label for='ooui-php-1' class='oo-ui-labelElement-label'>Seiten aus folgender Kategorie hinzufügen:</label></span><div class='oo-ui-fieldLayout-field'><div class='oo-ui-actionFieldLayout-input'><div id='mw-input-catname' aria-disabled='false' class='oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-textInputWidget oo-ui-textInputWidget-type-text oo-ui-textInputWidget-php' data-ooui='{"_":"OO.ui.TextInputWidget","name":"catname","inputId":"ooui-php-1"}'><input type='text' tabindex='0' aria-disabled='false' name='catname' value='' id='ooui-php-1' class='oo-ui-inputWidget-input' /><span class='oo-ui-iconElement-icon oo-ui-iconElement-noIcon'></span><span class='oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator'></span></div></div><span class='oo-ui-actionFieldLayout-button'><span aria-disabled='false' id='ooui-php-7' class='oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-buttonElement oo-ui-buttonElement-framed oo-ui-labelElement oo-ui-flaggedElement-progressive oo-ui-buttonInputWidget' data-ooui='{"_":"OO.ui.ButtonInputWidget","type":"submit","name":"addcat","value":"Hinzuf\u00fcgen","label":"Hinzuf\u00fcgen","flags":["progressive"]}'><button type='submit' tabindex='0' aria-disabled='false' name='addcat' value='Hinzufügen' class='oo-ui-inputWidget-input oo-ui-buttonElement-button'><span class='oo-ui-iconElement-icon oo-ui-iconElement-noIcon oo-ui-image-progressive'></span><span class='oo-ui-labelElement-label'>Hinzufügen</span><span class='oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator oo-ui-image-progressive'></span></button></span></span></div></div></div><div id='ooui-php-8' class='mw-htmlform-field-HTMLTextAreaField  oo-ui-layout oo-ui-labelElement oo-ui-fieldLayout oo-ui-fieldLayout-align-top mw-htmlform-hide-if' data-ooui='{"_":"mw.htmlform.FieldLayout","fieldWidget":{"tag":"mw-input-pages"},"align":"top","helpInline":true,"$overlay":true,"label":{"html":"Seiten manuell hinzuf\u00fcgen:"},"hideIf":["===","exportall","1"],"classes":["mw-htmlform-field-HTMLTextAreaField",""]}'><div class='oo-ui-fieldLayout-body'><span class='oo-ui-fieldLayout-header'><label for='ooui-php-2' class='oo-ui-labelElement-label'>Seiten manuell hinzufügen:</label></span><div class='oo-ui-fieldLayout-field'><div id='mw-input-pages' aria-disabled='false' class='oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-textInputWidget oo-ui-textInputWidget-type-text oo-ui-textInputWidget-php' data-ooui='{"_":"OO.ui.MultilineTextInputWidget","rows":10,"name":"pages","inputId":"ooui-php-2"}'><textarea tabindex='0' aria-disabled='false' name='pages' rows='10' id='ooui-php-2' class='oo-ui-inputWidget-input'></textarea><span class='oo-ui-iconElement-icon oo-ui-iconElement-noIcon'></span><span class='oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator'></span></div></div></div></div><div id='ooui-php-9' class='mw-htmlform-field-HTMLCheckField  oo-ui-layout oo-ui-labelElement oo-ui-fieldLayout oo-ui-fieldLayout-align-inline' data-ooui='{"_":"mw.htmlform.FieldLayout","fieldWidget":{"tag":"curonly"},"align":"inline","helpInline":true,"$overlay":true,"label":{"html":"Nur die aktuelle Version der Seite exportieren"},"classes":["mw-htmlform-field-HTMLCheckField",""]}'><div class='oo-ui-fieldLayout-body'><span class='oo-ui-fieldLayout-field'><span id='curonly' aria-disabled='false' class='oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-checkboxInputWidget' data-ooui='{"_":"OO.ui.CheckboxInputWidget","selected":true,"name":"curonly","value":"1","inputId":"ooui-php-3"}'><input type='checkbox' tabindex='0' aria-disabled='false' name='curonly' value='1' checked='checked' id='ooui-php-3' class='oo-ui-inputWidget-input' /><span aria-disabled='false' class='oo-ui-checkboxInputWidget-checkIcon oo-ui-widget oo-ui-widget-enabled oo-ui-iconElement-icon oo-ui-icon-check oo-ui-iconElement oo-ui-labelElement-invisible oo-ui-iconWidget oo-ui-image-invert'></span></span></span><span class='oo-ui-fieldLayout-header'><label for='ooui-php-3' class='oo-ui-labelElement-label'>Nur die aktuelle Version der Seite exportieren</label></span></div></div><div id='ooui-php-10' class='mw-htmlform-field-HTMLCheckField  oo-ui-layout oo-ui-labelElement oo-ui-fieldLayout oo-ui-fieldLayout-align-inline' data-ooui='{"_":"mw.htmlform.FieldLayout","fieldWidget":{"tag":"wpExportTemplates"},"align":"inline","helpInline":true,"$overlay":true,"label":{"html":"Die eingebundenen Vorlagen auch exportieren"},"classes":["mw-htmlform-field-HTMLCheckField",""]}'><div class='oo-ui-fieldLayout-body'><span class='oo-ui-fieldLayout-field'><span id='wpExportTemplates' aria-disabled='false' class='oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-checkboxInputWidget' data-ooui='{"_":"OO.ui.CheckboxInputWidget","name":"templates","value":"1","inputId":"ooui-php-4"}'><input type='checkbox' tabindex='0' aria-disabled='false' name='templates' value='1' id='ooui-php-4' class='oo-ui-inputWidget-input' /><span aria-disabled='false' class='oo-ui-checkboxInputWidget-checkIcon oo-ui-widget oo-ui-widget-enabled oo-ui-iconElement-icon oo-ui-icon-check oo-ui-iconElement oo-ui-labelElement-invisible oo-ui-iconWidget oo-ui-image-invert'></span></span></span><span class='oo-ui-fieldLayout-header'><label for='ooui-php-4' class='oo-ui-labelElement-label'>Die eingebundenen Vorlagen auch exportieren</label></span></div></div><div id='ooui-php-11' class='mw-htmlform-field-HTMLCheckField  oo-ui-layout oo-ui-labelElement oo-ui-fieldLayout oo-ui-fieldLayout-align-inline' data-ooui='{"_":"mw.htmlform.FieldLayout","fieldWidget":{"tag":"wpDownload"},"align":"inline","helpInline":true,"$overlay":true,"label":{"html":"Als XML-Datei speichern"},"classes":["mw-htmlform-field-HTMLCheckField",""]}'><div class='oo-ui-fieldLayout-body'><span class='oo-ui-fieldLayout-field'><span id='wpDownload' aria-disabled='false' class='oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-checkboxInputWidget' data-ooui='{"_":"OO.ui.CheckboxInputWidget","selected":true,"name":"wpDownload","value":"1","inputId":"ooui-php-5"}'><input type='checkbox' tabindex='0' aria-disabled='false' name='wpDownload' value='1' checked='checked' id='ooui-php-5' class='oo-ui-inputWidget-input' /><span aria-disabled='false' class='oo-ui-checkboxInputWidget-checkIcon oo-ui-widget oo-ui-widget-enabled oo-ui-iconElement-icon oo-ui-icon-check oo-ui-iconElement oo-ui-labelElement-invisible oo-ui-iconWidget oo-ui-image-invert'></span></span></span><span class='oo-ui-fieldLayout-header'><label for='ooui-php-5' class='oo-ui-labelElement-label'>Als XML-Datei speichern</label></span></div></div><input id="wpEditToken" type="hidden" value="+\" name="wpEditToken"/>
+<input type="hidden" value="Spezial:Exportieren/" name="title"/>
+<div class="mw-htmlform-submit-buttons">
+<span aria-disabled='false' id='ooui-php-12' class='mw-htmlform-submit oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-buttonElement oo-ui-buttonElement-framed oo-ui-labelElement oo-ui-flaggedElement-primary oo-ui-flaggedElement-progressive oo-ui-buttonInputWidget' data-ooui='{"_":"OO.ui.ButtonInputWidget","type":"submit","value":"Seiten exportieren","label":"Seiten exportieren","flags":["primary","progressive"],"classes":["mw-htmlform-submit"]}'><button type='submit' tabindex='0' aria-disabled='false' value='Seiten exportieren' class='oo-ui-inputWidget-input oo-ui-buttonElement-button'><span class='oo-ui-iconElement-icon oo-ui-iconElement-noIcon oo-ui-image-invert'></span><span class='oo-ui-labelElement-label'>Seiten exportieren</span><span class='oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator oo-ui-image-invert'></span></button></span></div>
+</form></div><noscript><img src="//de.wikibooks.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter">Abgerufen von „<a dir="ltr" href="https://de.wikibooks.org/wiki/Spezial:Exportieren/">https://de.wikibooks.org/wiki/Spezial:Exportieren/</a>“</div></div>
+		<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigationsmenü</h2>
+	<div id="mw-head">
+		<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-personal" class="mw-portlet mw-portlet-personal vector-menu" aria-labelledby="p-personal-label" role="navigation" 
+	 >
+	<h3 id="p-personal-label">
+		<span>Meine Werkzeuge</span>
+	</h3>
+	<div class="vector-menu-content">
+		<ul class="vector-menu-content-list"><li id="pt-anonuserpage">Nicht angemeldet</li><li id="pt-anontalk"><a href="/wiki/Spezial:Meine_Diskussionsseite" title="Diskussion über Änderungen von dieser IP-Adresse [n]" accesskey="n">Diskussionsseite</a></li><li id="pt-anoncontribs"><a href="/wiki/Spezial:Meine_Beitr%C3%A4ge" title="Eine Liste der Bearbeitungen, die von dieser IP-Adresse gemacht wurden [y]" accesskey="y">Beiträge</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Spezial:Benutzerkonto_anlegen&amp;returnto=Spezial%3AExportieren%2F" title="Wir ermutigen dich dazu, ein Benutzerkonto zu erstellen und dich anzumelden. Es ist jedoch nicht zwingend erforderlich.">Benutzerkonto erstellen</a></li><li id="pt-login"><a href="/w/index.php?title=Spezial:Anmelden&amp;returnto=Spezial%3AExportieren%2F" title="Sich anzumelden wird gerne gesehen, ist jedoch nicht zwingend erforderlich. [o]" accesskey="o">Anmelden</a></li></ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-namespaces" class="mw-portlet mw-portlet-namespaces vector-menu vector-menu-tabs" aria-labelledby="p-namespaces-label" role="navigation" 
+	 >
+	<h3 id="p-namespaces-label">
+		<span>Namensräume</span>
+	</h3>
+	<div class="vector-menu-content">
+		<ul class="vector-menu-content-list"><li id="ca-nstab-special" class="selected"><a href="/wiki/Spezial:Exportieren/" title="Dies ist eine Spezialseite und kann nicht bearbeitet werden.">Spezialseite</a></li></ul>
+		
+	</div>
+</nav>
+
+			<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-variants" class="mw-portlet mw-portlet-variants emptyPortlet vector-menu vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation" 
+	 >
+	<input type="checkbox" class="vector-menu-checkbox" aria-labelledby="p-variants-label" />
+	<h3 id="p-variants-label">
+		<span>Varianten</span>
+	</h3>
+	<div class="vector-menu-content">
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-views" class="mw-portlet mw-portlet-views emptyPortlet vector-menu vector-menu-tabs" aria-labelledby="p-views-label" role="navigation" 
+	 >
+	<h3 id="p-views-label">
+		<span>Ansichten</span>
+	</h3>
+	<div class="vector-menu-content">
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+			<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-cactions" class="mw-portlet mw-portlet-cactions emptyPortlet vector-menu vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation" 
+	 >
+	<input type="checkbox" class="vector-menu-checkbox" aria-labelledby="p-cactions-label" />
+	<h3 id="p-cactions-label">
+		<span>Weitere</span>
+	</h3>
+	<div class="vector-menu-content">
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+			<div id="p-search" role="search">
+	<h3 >
+		<label for="searchInput">Suche</label>
+	</h3>
+	<form action="/w/index.php" id="searchform">
+		<div id="simpleSearch" data-search-loc="header-navigation">
+			<input type="search" name="search" placeholder="Wikibooks durchsuchen" autocapitalize="sentences" title="Wikibooks durchsuchen [f]" accesskey="f" id="searchInput"/>
+			<input type="hidden" name="title" value="Spezial:Suche">
+			<input type="submit" name="fulltext" value="Suchen" title="Suche nach Seiten, die diesen Text enthalten" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/>
+			<input type="submit" name="go" value="Seite" title="Gehe direkt zu der Seite mit genau diesem Namen, falls sie vorhanden ist." id="searchButton" class="searchButton"/>
+		</div>
+	</form>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/wiki/Hauptseite"
+			title="Hauptseite"></a>
+	</div>
+	<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-navigation" class="mw-portlet mw-portlet-navigation vector-menu vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation" 
+	 >
+	<h3 id="p-navigation-label">
+		<span>Navigation</span>
+	</h3>
+	<div class="vector-menu-content">
+		<ul class="vector-menu-content-list"><li id="n-mainpage"><a href="/wiki/Hauptseite" title="Hauptseite anzeigen [z]" accesskey="z">Hauptseite</a></li><li id="n-currentevents"><a href="/wiki/Wikibooks:Rundschau" title="Hintergrundinformationen zu aktuellen Ereignissen">Aktuelles</a></li><li id="n-finishedbooks"><a href="/wiki/Wikibooks:Buchkatalog">Buchkatalog</a></li><li id="n-allbooks"><a href="/wiki/Kategorie:Buch">Alle Bücher</a></li><li id="n-boards"><a href="/wiki/Wikibooks:B%C3%BCcherregale">Bücherregale</a></li><li id="n-randompage"><a href="/wiki/Spezial:Zuf%C3%A4llige_Seite" title="Zufällige Seite aufrufen [x]" accesskey="x">Zufälliges Kapitel</a></li><li id="n-Datei-hochladen"><a href="https://commons.wikimedia.org/wiki/Special:UploadWizard">Datei hochladen</a></li></ul>
+		
+	</div>
+</nav>
+
+	<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-Mitmachen" class="mw-portlet mw-portlet-Mitmachen vector-menu vector-menu-portal portal" aria-labelledby="p-Mitmachen-label" role="navigation" 
+	 >
+	<h3 id="p-Mitmachen-label">
+		<span>Mitmachen</span>
+	</h3>
+	<div class="vector-menu-content">
+		<ul class="vector-menu-content-list"><li id="n-portal"><a href="/wiki/Wikibooks:Portal" title="Über das Projekt, was du tun kannst, wo was zu finden ist">Wikibooks-Portal</a></li><li id="n-recentchanges"><a href="/wiki/Spezial:Letzte_%C3%84nderungen" title="Liste der letzten Änderungen in diesem Wiki [r]" accesskey="r">Letzte Änderungen</a></li><li id="n-help"><a href="/wiki/Wikibooks:Hilfe" title="Hilfeseite anzeigen">Hilfe</a></li><li id="n-Verbesserungen"><a href="/wiki/Wikibooks:Verbesserungsvorschl%C3%A4ge">Verbesserungen</a></li><li id="n-admins"><a href="/wiki/Wikibooks:Administratoren">Administratoren</a></li><li id="n-logs"><a href="/wiki/Spezial:Logbuch">Logbücher</a></li><li id="n-Spenden"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_de.wikibooks.org&amp;uselang=de">Spenden</a></li></ul>
+		
+	</div>
+</nav>
+<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-tb" class="mw-portlet mw-portlet-tb vector-menu vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation" 
+	 >
+	<h3 id="p-tb-label">
+		<span>Werkzeuge</span>
+	</h3>
+	<div class="vector-menu-content">
+		<ul class="vector-menu-content-list"><li id="t-specialpages"><a href="/wiki/Spezial:Spezialseiten" title="Liste aller Spezialseiten [q]" accesskey="q">Spezialseiten</a></li><li id="t-print"><a href="javascript:print();" rel="alternate" title="Druckansicht dieser Seite [p]" accesskey="p">Druckversion</a></li></ul>
+		
+	</div>
+</nav>
+<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-coll-print_export" class="mw-portlet mw-portlet-coll-print_export emptyPortlet vector-menu vector-menu-portal portal" aria-labelledby="p-coll-print_export-label" role="navigation" 
+	 >
+	<h3 id="p-coll-print_export-label">
+		<span>Drucken/­exportieren</span>
+	</h3>
+	<div class="vector-menu-content">
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-wikibase-otherprojects" class="mw-portlet mw-portlet-wikibase-otherprojects vector-menu vector-menu-portal portal" aria-labelledby="p-wikibase-otherprojects-label" role="navigation" 
+	 >
+	<h3 id="p-wikibase-otherprojects-label">
+		<span>In anderen Projekten</span>
+	</h3>
+	<div class="vector-menu-content">
+		<ul class="vector-menu-content-list"><li id="n-Wikipedia"><a href="https://de.wikipedia.org/wiki/Hauptseite">Wikipedia</a></li><li id="n-Wikiversity"><a href="https://de.wikiversity.org/wiki/Wikiversity:Hauptseite">Wikiversity</a></li><li id="n-Wiktionary"><a href="https://de.wiktionary.org/wiki/Wiktionary:Hauptseite">Wiktionary</a></li><li id="n-Wikiquote"><a href="https://de.wikiquote.org/wiki/Hauptseite">Wikiquote</a></li><li id="n-Wikisource"><a href="https://de.wikisource.org/wiki/Hauptseite">Wikisource</a></li><li id="n-Wikinews"><a href="https://de.wikinews.org/wiki/Hauptseite">Wikinews</a></li><li id="n-Wikivoyage"><a href="https://de.wikivoyage.org/wiki/Hauptseite">Wikivoyage</a></li><li id="n-Commons"><a href="https://commons.wikimedia.org/wiki/Hauptseite">Commons</a></li><li id="n-Wikidata"><a href="https://www.wikidata.org/wiki/Wikidata:Hauptseite">Wikidata</a></li></ul>
+		
+	</div>
+</nav>
+
+	<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-lang" class="mw-portlet mw-portlet-lang vector-menu vector-menu-portal portal" aria-labelledby="p-lang-label" role="navigation" 
+	 >
+	<h3 id="p-lang-label">
+		<span>In anderen Sprachen</span>
+	</h3>
+	<div class="vector-menu-content">
+		<ul class="vector-menu-content-list"></ul>
+		<div class="after-portlet after-portlet-lang"><span class="uls-after-portlet-link"></span></div>
+	</div>
+</nav>
+
+</div>
+
+</div>
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info" >
+</ul>
+
+	<ul id="footer-places" >
+	<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/de" class="extiw" title="m:Privacy policy/de">Datenschutz</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikibooks:%C3%9Cber_Wikibooks" title="Wikibooks:Über Wikibooks">Über Wikibooks</a></li>
+	<li id="footer-places-disclaimer"><a href="/wiki/Wikibooks:Impressum" title="Wikibooks:Impressum">Haftungsausschluss</a></li>
+	<li id="footer-places-mobileview"><a href="//de.m.wikibooks.org/w/index.php?title=Spezial:Exportieren/&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile Ansicht</a></li>
+	<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Entwickler</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/de.wikibooks.org">Statistiken</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Stellungnahme zu Cookies</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+	<div style="clear: both;"></div>
+</footer>
+
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":97,"wgHostname":"mw1320"});});</script>
+</body></html>
