@@ -65,6 +65,7 @@ public class Bibliothek extends Application {
             public void handle(KeyEvent event) {
                 if (event.getCode() == KeyCode.TAB) {
                     event.consume();
+                    System.out.println("test");
 
 
 
