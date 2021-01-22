@@ -1,5 +1,6 @@
 package sample;
 
+import com.sun.javafx.css.StyleCache;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.Scene;
@@ -16,6 +17,8 @@ import org.xml.sax.InputSource;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
 
+import javax.xml.stream.EventFilter;
+import javax.xml.stream.events.XMLEvent;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
@@ -455,7 +458,10 @@ public class WikibookController {
     public void traversieren(KeyEvent keyEvent) {
 
 
-    }
+            }
+
+
+
 }
 
 

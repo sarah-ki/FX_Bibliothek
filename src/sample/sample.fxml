@@ -27,7 +27,7 @@
             </MenuBar>
 
             <TextField fx:id="textField" onAction="#tfSearchTerm" onKeyTyped="#enableActions" GridPane.columnIndex="0"
-                       GridPane.rowIndex="1" />
+                       GridPane.rowIndex="1" onKeyPressed="#traversieren"/>
             <Button fx:id="seachButton" onAction="#btnSearch" text="Suchen" GridPane.columnIndex="0"
                     GridPane.rowIndex="2"/>
 

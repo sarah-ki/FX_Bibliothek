@@ -54,13 +54,14 @@ public class Bibliothek extends Application {
         FXMLLoader loader = new FXMLLoader(Bibliothek.class.getResource("sample.fxml"));
         Parent root =  loader.load();
         primaryStage.setTitle("Mein Wikibooks-Browser");
-        primaryStage.setScene(new Scene(root, 0, 0));//weite hoehe
+        Scene scene = new Scene(root, 0, 0);
+        primaryStage.setScene(scene);//weite hoehe
 
         primaryStage.setMinWidth(800);
         primaryStage.setMinHeight(500);
         primaryStage.getIcons().add(new Image("1200px-Wikibooks.png"));
         primaryStage.show();
-        primaryStage.addEventFilter(KeyEvent.KEY_PRESSED, new EventHandler<KeyEvent>() {
+       primaryStage.addEventFilter(KeyEvent.KEY_PRESSED, new EventHandler<KeyEvent>() {
             @Override
             public void handle(KeyEvent event) {
                 if (event.getCode() == KeyCode.TAB) {
